@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Self Study 10</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'main-bg-dark': '#1A1A2E',
+              'card-bg-dark': '#2C2C40',
+              'text-dark': '#E0E0E0',
+              'accent-purple-dark': '#8A2BE2',
+              'accent-purple-darker': '#6A1AAB',
+              'nav-inactive-dark': '#A0A0A0',
+              'title-dark': '#B0C4DE',
+              'list-hover-dark': '#3A3A50',
+              
+              'main-bg-light': '#F0F4F8',
+              'card-bg-light': '#FFFFFF',
+              'text-light': '#333333',
+              'accent-purple-light': '#9b59b6',
+              'accent-purple-darker-light': '#8e44ad',
+              'nav-inactive-light': '#667788',
+              'title-light': '#1c3144',
+              'list-hover-light': '#E0E6EB',
+              
+              'correct': '#2ecc71',
+              'wrong': '#e74c3c',
+              'timer': '#f1c40f',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-main-bg-light dark:bg-main-bg-dark">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
